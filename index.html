@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn how AH-Nexus handles local chats, memory, voice input, optional system awareness, and your privacy choices.">
+  <meta name="theme-color" content="#6550a3">
+  <title>Privacy Policy · AH-Nexus</title>
+  <style>
+    :root { color-scheme: light; --ink: #292536; --muted: #625c70; --accent: #604598; --line: #e5dfed; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+    body { margin: 0; background: #faf8fc; color: var(--ink); font: 17px/1.75 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    a { color: var(--accent); text-underline-offset: 4px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+    .skip { position: absolute; left: 16px; top: -100px; padding: 10px; background: white; }
+    .skip:focus { top: 12px; }
+    .wrap { width: min(100% - 48px, 900px); margin: auto; }
+    header { padding: 36px 0 28px; border-bottom: 1px solid var(--line); }
+    .brand { display: inline-flex; align-items: center; gap: 11px; font-weight: 750; letter-spacing: -.03em; font-size: 22px; }
+    .mark { display: grid; place-items: center; width: 37px; height: 37px; border-radius: 12px; background: var(--accent); color: white; font-size: 20px; }
+    .eyebrow { color: var(--accent); text-transform: uppercase; font-weight: 700; letter-spacing: .14em; font-size: 12px; margin: 0 0 12px; }
+    .intro { padding: 54px 0 30px; }
+    h1 { font-size: clamp(38px, 7vw, 58px); line-height: 1.15; letter-spacing: -.055em; margin: 0 0 18px; }
+    .lead { font-size: 20px; color: var(--muted); max-width: 650px; margin: 0 0 20px; }
+    .date { color: var(--muted); font-size: 14px; }
+    .summary { padding: 24px 28px; background: #efe9f8; border: 1px solid #ded2ee; border-radius: 18px; margin: 0 0 32px; }
+    .summary h2 { margin: 0 0 8px; font-size: 19px; }
+    .summary p { margin: 0; }
+    nav { padding-bottom: 28px; display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; }
+    article { background: white; padding: 10px 36px 22px; border: 1px solid var(--line); border-radius: 18px; }
+    section { padding: 23px 0; border-bottom: 1px solid var(--line); }
+    section:last-child { border: 0; }
+    h2 { font-size: 22px; line-height: 1.35; letter-spacing: -.025em; margin: 0 0 12px; }
+    p { margin: 0 0 13px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 23px; margin: 12px 0; }
+    li { margin: 8px 0; }
+    code { overflow-wrap: anywhere; font-size: .9em; background: #f3f0f7; padding: 2px 5px; border-radius: 4px; }
+    footer { padding: 28px 0 42px; color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+    @media (max-width: 600px) { .wrap { width: calc(100% - 32px); } header { padding: 24px 0; } .intro { padding-top: 36px; } article { padding: 6px 21px 12px; } .summary { padding: 20px; } body { font-size: 16px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print { body, article { background: white; } .wrap { width: 100%; } header, nav, footer, .skip { display: none; } article { border: 0; padding: 0; } .intro { padding-top: 0; } section { break-inside: avoid; } }
+  </style>
+</head>
+<body id="top">
+  <a class="skip" href="#policy">Skip to privacy policy</a>
+  <header><div class="wrap"><div class="brand"><span class="mark" aria-hidden="true">N</span> AH-Nexus</div></div></header>
+  <main class="wrap" id="policy">
+    <div class="intro">
+      <p class="eyebrow">Your companion. Your control.</p>
+      <h1>Privacy policy</h1>
+      <p class="lead">A clear look at the information AH-Nexus uses, where it stays, and the choices you have.</p>
+      <p class="date">Effective and last updated: <time datetime="2026-10-15">October 15, 2026</time></p>
+    </div>
+    <aside class="summary" aria-labelledby="summary-title">
+      <h2 id="summary-title">Privacy at a glance</h2>
+      <p>AH-Nexus runs its AI on your Windows device. Chats and personal memories are stored locally when enabled. The app does not send your conversations to the developer, include advertising trackers, or send usage telemetry. Optional downloads contact their hosting providers.</p>
+    </aside>
+    <nav aria-label="Policy sections"><a href="#information">Information used</a><a href="#voice">Voice &amp; awareness</a><a href="#connections">Connections</a><a href="#choices">Your choices</a><a href="#contact">Contact</a></nav>
+    <article aria-label="AH-Nexus privacy policy">
+      <section id="scope">
+        <h2>1. About this policy</h2>
+        <p>This policy covers the AH-Nexus Windows desktop companion, also called Nexus, published by AH-NEXUS and maintained by Ali Hassan. It also explains visits to this privacy-policy website. You do not need an AH-Nexus account to use the desktop app.</p>
+      </section>
+      <section id="information">
+        <h2>2. Information used on your device</h2>
+        <ul>
+          <li><strong>Conversations:</strong> your messages and generated replies are processed by the local AI model. When saved history is enabled, conversations are stored locally.</li>
+          <li><strong>Personal memory:</strong> when enabled, the app can save facts you share, including your name and explicit requests to remember something, for use in later conversations.</li>
+          <li><strong>Tasks and reminders:</strong> task text, reminder times, focus-session information, and delivery status support the features you use. Saved tasks and reminders remain on your device.</li>
+          <li><strong>Preferences:</strong> settings such as your selected model, voice, character, privacy controls, and game preferences are stored locally.</li>
+          <li><strong>Device information:</strong> setup and model loading can check CPU, RAM, and GPU availability to help choose and run a suitable local model.</li>
+        </ul>
+        <p>These features use local application storage, including a SQLite database and WebView2 local storage. The ordinary desktop installation uses the application-data identifier <code>com.aliha.nexus</code>; storage locations can differ for Microsoft Store installations.</p>
+      </section>
+      <section id="voice">
+        <h2>3. Microphone and desktop awareness</h2>
+        <p><strong>Voice input is optional.</strong> Microphone access is used when you start voice recording and grant the required permission. Desktop speech recognition uses the local whisper.cpp engine after a speech model is installed. Temporary audio and transcript files are removed after a recognition request; an interrupted process can leave temporary files behind. Transcribed text can become part of a saved conversation when history is enabled.</p>
+        <p>Spoken replies use a local Piper service or installed local operating-system voices. The standard configuration does not send recordings or reply text to a cloud speech service.</p>
+        <p><strong>System awareness is controlled by category.</strong> Current time is available by default. Idle duration, active application, window title, CPU usage, and memory usage are individually controlled and start disabled. If enabled, that context may be used in local responses or suggestions. Window titles can contain personal information.</p>
+        <p>The companion can use pointer coordinates for its animations. It does not capture or interpret your screen. You can disable pointer following in settings. Reminder notifications may display reminder text on your screen according to your Windows notification settings.</p>
+      </section>
+      <section id="connections">
+        <h2>4. Network connections and third parties</h2>
+        <p>Chat inference and stored memory run locally. The app communicates with its local AI and speech processes using your device's loopback interface.</p>
+        <p>If you explicitly choose to download an AI or speech model, the app connects to the model host, currently Hugging Face and its delivery infrastructure. These providers receive connection information such as your IP address and the requested file. Their handling of that information is covered by the <a href="https://huggingface.co/privacy">Hugging Face privacy policy</a>. Model downloads do not require sending your chats or memories.</p>
+        <p>Installing required components, obtaining app updates through Microsoft, or opening external links can also contact the relevant provider under its own privacy terms. See the <a href="https://privacy.microsoft.com/privacystatement">Microsoft privacy statement</a>. If you change a service endpoint in advanced configuration, information sent to that endpoint is handled by the service you selected.</p>
+        <p>AH-Nexus does not sell your personal information, include advertising analytics, or upload usage telemetry to the developer.</p>
+      </section>
+      <section id="choices">
+        <h2>5. Your choices and data retention</h2>
+        <p>You can disable saved chat history, personal memory, and voice separately in settings, and control individual system-awareness categories. Review, correct, or delete saved personal facts under <strong>Settings → Memories</strong>. Disabling a feature does not by itself erase information already saved.</p>
+        <p>Local saved data remains until you delete it using the relevant app controls or remove the application data. Downloaded models are separate files; externally selected model files remain in the location you chose. Uninstalling the app should not be assumed to remove all settings, saved data, or downloaded models. Installation type and Windows settings affect what remains.</p>
+        <p>The developer does not have a server-side copy of your local conversations or memories to retrieve or delete. If you need help locating your app data or using deletion controls, contact us below.</p>
+      </section>
+      <section id="security">
+        <h2>6. Protecting local information</h2>
+        <p>Local storage reduces the need to transmit your personal content. The app's SQLite database does not provide application-level encryption. Protect access to your Windows account and device, and use device encryption where appropriate. Other people or software with access to your account, files, or backups may be able to read saved data.</p>
+      </section>
+      <section id="website">
+        <h2>7. This website and support requests</h2>
+        <p>This page contains no analytics scripts, advertising, contact forms, or embedded third-party resources. It does not set its own cookies or use browser local storage. GitHub Pages hosts the site and may process technical information, including your IP address, to serve and secure it, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.</p>
+        <p>If you submit a GitHub issue, the information you choose to share is handled by GitHub and is visible to the project maintainer and the public. Do not post private conversations, recordings, passwords, or other sensitive information in an issue.</p>
+      </section>
+      <section id="changes">
+        <h2>8. Changes to this policy</h2>
+        <p>This policy may be updated as AH-Nexus changes. The date at the top identifies the latest version. Changes will be published on this page.</p>
+      </section>
+      <section id="contact">
+        <h2>9. Contact</h2>
+        <p>For privacy questions or help with your local data, contact Ali Hassan / AH-NEXUS through the <a href="https://github.com/alihassan410/AH-Nexus-privacy-policy/issues">AH-Nexus privacy-policy GitHub Issues page</a>.</p>
+      </section>
+    </article>
+  </main>
+  <footer class="wrap"><span>© 2026 AH-NEXUS</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
